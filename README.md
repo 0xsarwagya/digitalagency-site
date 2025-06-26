@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 DigitalAgency – Modern Digital Agency Website
 
-## Getting Started
+**DigitalAgency** is a fully responsive and modern frontend website built using **Next.js**, **TailwindCSS**, and **ShadCN** UI. Designed for a digital agency, this project showcases a clean design system, structured pages, and a complete dashboard interface tailored for agency operations.
 
-First, run the development server:
+## 🚀 Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Framework:** [Next.js](https://nextjs.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components:** [ShadCN UI](https://ui.shadcn.dev/)
+- **Icons:** Lucide React
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📄 Pages Included
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 🔷 Public Website Pages
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `/` – Home
+- `/about` – About Us
+- `/contact` – Contact
+- `/services` – Services Offered
+- `/portfolio` – Project Showcase
+- `/pricing` – Pricing Plans
+- `/careers` – Join the Team
+- `/blog` – Blog List & Articles
+- `/terms` – Terms and Conditions
+- `/privacy` – Privacy Policy
 
-## Learn More
+### 🔐 Auth Pages
 
-To learn more about Next.js, take a look at the following resources:
+- `/signin` – Sign In
+- `/signup` – Sign Up
+- `/forgot-password` – Forgot Password
+- `/reset-password` – Reset Password
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 📊 Dashboard Pages
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `/dashboard` – Dashboard Home
+- `/dashboard/analytics` – Analytics Overview
+- `/dashboard/reports` – Detailed Reports
+- `/dashboard/projects` – Projects List
+- `/dashboard/projects/add` – Add Project
+- `/dashboard/projects/[id]` – View Project
+- `/dashboard/projects/[id]/edit` – Edit Project
+- `/dashboard/clients` – Client Management
+- `/dashboard/settings` – Agency Settings
+- `/dashboard/team` – Team Management
 
-## Deploy on Vercel
+## 🧩 Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Fully **responsive** and optimized for all devices.
+- Built with **component-based architecture** using ShadCN UI.
+- **Modern dashboard** layout for internal use.
+- Clean and modular folder structure using `app/` directory of Next.js.
+- Authentication-ready frontend forms.
+- Tailored UI for agency needs.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ✅ Setup Instructions
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/pawantech12/digitalagency-site.git
+   cd digitalagency-site
+   ```
+
+2. **Install Dependencies:**
+
+   ```bash
+   pnpm install
+   # or
+   yarn install
+   ```
+
+3. **Run the Development Server:**
+
+   ```bash
+   pnpm run dev
+   # or
+   yarn dev
+   ```
+
+4. Visit: `http://localhost:3000`
+
+## 📌 To-Do (Optional Enhancements)
+
+- Integrate with backend APIs (e.g. for login, project data, etc.)
+- Add Figma-to-site export tool for wireframing
+- Add CMS for blog (e.g. MDX, Sanity)
+
+## 🤝 Contributing
+
+Feel free to fork the project, open issues, or submit pull requests.
+
+## 📜 License
+
+This project is free to use.
