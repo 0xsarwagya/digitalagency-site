@@ -80,7 +80,7 @@ export default function ForgotPasswordPage() {
                     Check Your Email
                   </CardTitle>
                   <CardDescription className="text-gray-600 text-base">
-                    We've sent a password reset link to
+                    We&apos;ve sent a password reset link to
                   </CardDescription>
                   <div className="mt-3 px-4 py-3 bg-gradient-to-r from-blue-50 to-green-50 rounded-lg border border-blue-200">
                     <span className="font-semibold text-blue-800">{email}</span>
@@ -115,7 +115,7 @@ export default function ForgotPasswordPage() {
 
                 <div className="text-center space-y-4">
                   <p className="text-sm text-gray-600 font-medium">
-                    Didn't receive the email?
+                    Didn&apos;t receive the email?
                   </p>
                   <div className="space-y-3">
                     <Button
@@ -193,7 +193,7 @@ export default function ForgotPasswordPage() {
                 Secure Password Recovery
               </h2>
               <p className="text-lg text-gray-600">
-                We'll help you regain access to your account safely
+                We&apos;ll help you regain access to your account safely
               </p>
             </div>
 
@@ -252,7 +252,7 @@ export default function ForgotPasswordPage() {
                 Reset Password
               </h1>
               <p className="text-gray-600 text-lg">
-                We'll help you get back into your account
+                We&apos;ll help you get back into your account
               </p>
 
               {/* Trust Badge */}
@@ -273,7 +273,8 @@ export default function ForgotPasswordPage() {
                   Forgot Password?
                 </CardTitle>
                 <CardDescription className="text-gray-600 text-base">
-                  No worries! Enter your email and we'll send you a reset link
+                  No worries! Enter your email and we&apos;ll send you a reset
+                  link
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -287,7 +288,7 @@ export default function ForgotPasswordPage() {
                         Secure Password Reset
                       </p>
                       <p className="text-gray-600">
-                        We'll send a secure link that expires in 15 minutes
+                        We&apos;ll send a secure link that expires in 15 minutes
                       </p>
                     </div>
                   </div>

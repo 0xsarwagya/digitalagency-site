@@ -349,8 +349,8 @@ export default function PricingPage() {
               Ready to Get Started?
             </h2>
             <p className="text-xl opacity-90 max-w-3xl mx-auto">
-              Choose your plan and let's build something amazing together. Free
-              consultation included with every project.
+              Choose your plan and let&apos;s build something amazing together.
+              Free consultation included with every project.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button

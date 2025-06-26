@@ -14,7 +14,7 @@ export default function ContactPage() {
           <div className="text-center space-y-8">
             <Badge className="bg-blue-100 text-blue-800">Get In Touch</Badge>
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-              Let's
+              Let&apos;s
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                 {" "}
                 Start Building{" "}
@@ -23,7 +23,8 @@ export default function ContactPage() {
             </h1>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
               Ready to transform your digital presence? Get in touch with our
-              team and let's discuss how we can help bring your vision to life.
+              team and let&apos;s discuss how we can help bring your vision to
+              life.
             </p>
           </div>
         </div>
@@ -40,8 +41,8 @@ export default function ContactPage() {
                   <div className="space-y-2">
                     <h2 className="text-2xl font-bold">Send us a message</h2>
                     <p className="text-gray-600">
-                      Fill out the form below and we'll get back to you within
-                      24 hours.
+                      Fill out the form below and we&apos;ll get back to you
+                      within 24 hours.
                     </p>
                   </div>
 
@@ -142,8 +143,8 @@ export default function ContactPage() {
               <div className="space-y-4">
                 <h2 className="text-2xl font-bold">Get in touch</h2>
                 <p className="text-gray-600">
-                  We're here to help you succeed. Reach out to us through any of
-                  the following channels.
+                  We&apos;re here to help you succeed. Reach out to us through
+                  any of the following channels.
                 </p>
               </div>
 
@@ -158,7 +159,7 @@ export default function ContactPage() {
                         <h3 className="font-semibold">Email Us</h3>
                         <p className="text-gray-600">hello@digitalagency.com</p>
                         <p className="text-sm text-gray-500">
-                          We'll respond within 24 hours
+                          We&apos;ll respond within 24 hours
                         </p>
                       </div>
                     </div>

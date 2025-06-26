@@ -16,16 +16,16 @@ export default function AboutPage() {
               <div className="space-y-4">
                 <Badge className="bg-blue-100 text-blue-800">About Us</Badge>
                 <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-                  We're Passionate About
+                  We&apos;re Passionate About
                   <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                     {" "}
                     Digital Innovation
                   </span>
                 </h1>
                 <p className="text-xl text-gray-600">
-                  Founded in 2019, we've been helping businesses transform their
-                  digital presence with cutting-edge solutions and creative
-                  strategies.
+                  Founded in 2019, we&apos;ve been helping businesses transform
+                  their digital presence with cutting-edge solutions and
+                  creative strategies.
                 </p>
               </div>
             </div>
@@ -183,8 +183,8 @@ export default function AboutPage() {
               Ready to Work Together?
             </h2>
             <p className="text-xl opacity-90 max-w-3xl mx-auto">
-              Let's discuss your project and see how our team can help bring
-              your vision to life.
+              Let&apos;s discuss your project and see how our team can help
+              bring your vision to life.
             </p>
             <Button
               size="lg"

@@ -155,7 +155,7 @@ export default function CareersPage() {
                 </h1>
                 <p className="text-xl text-gray-600">
                   Join a team of passionate professionals who are shaping the
-                  future of digital experiences. We're always looking for
+                  future of digital experiences. We&apos;re always looking for
                   talented individuals to join our growing family.
                 </p>
               </div>
@@ -388,11 +388,11 @@ export default function CareersPage() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center space-y-8 text-white">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">
-              Don't See the Perfect Role?
+              Don&apos;t See the Perfect Role?
             </h2>
             <p className="text-xl opacity-90 max-w-3xl mx-auto">
-              We're always interested in meeting talented individuals. Send us
-              your resume and let's start a conversation.
+              We&apos;re always interested in meeting talented individuals. Send
+              us your resume and let&apos;s start a conversation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button

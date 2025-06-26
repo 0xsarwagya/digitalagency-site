@@ -192,8 +192,8 @@ export default function PrivacyPolicyPage() {
             </div>
             <h1 className="text-5xl font-bold mb-4">Privacy Policy</h1>
             <p className="text-xl opacity-90 mb-6">
-              We're committed to protecting your privacy and being transparent
-              about how we handle your data.
+              We&apos;re committed to protecting your privacy and being
+              transparent about how we handle your data.
             </p>
             <div className="flex items-center justify-center space-x-4 text-sm">
               <div className="flex items-center space-x-2">
@@ -328,7 +328,7 @@ export default function PrivacyPolicyPage() {
                     Questions About Your Privacy?
                   </h3>
                   <p className="text-blue-100 text-lg">
-                    We're here to help. Contact our privacy team for any
+                    We&apos;re here to help. Contact our privacy team for any
                     questions or concerns.
                   </p>
                 </div>

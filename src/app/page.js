@@ -469,7 +469,7 @@ export default function HomePage() {
               Featured Projects
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Discover some of our recent work and see how we've helped
+              Discover some of our recent work and see how we&apos;ve helped
               businesses achieve their digital goals.
             </p>
           </div>
@@ -568,7 +568,7 @@ export default function HomePage() {
                       ))}
                     </div>
                     <p className="text-gray-600 italic">
-                      "{testimonial.content}"
+                      &quot;{testimonial.content}&quot;
                     </p>
                     <div className="flex items-center space-x-3">
                       <figure className="w-12 h-12">
@@ -603,8 +603,8 @@ export default function HomePage() {
               Ready to Transform Your Business?
             </h2>
             <p className="text-xl opacity-90 max-w-3xl mx-auto">
-              Let's discuss your project and create something amazing together.
-              Get a free consultation and quote today.
+              Let&apos;s discuss your project and create something amazing
+              together. Get a free consultation and quote today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
@@ -754,7 +754,7 @@ export default function HomePage() {
                     Client Testimonial
                   </h3>
                   <blockquote className="text-gray-600 italic mb-4">
-                    "{selectedProject.testimonial.content}"
+                    &quot;{selectedProject.testimonial.content}&quot;
                   </blockquote>
                   <div className="flex items-center space-x-3">
                     <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full flex items-center justify-center">

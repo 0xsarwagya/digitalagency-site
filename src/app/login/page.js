@@ -290,7 +290,7 @@ export default function LoginPage() {
                 </form>
 
                 <div className="text-center text-sm text-gray-600">
-                  Don't have an account?{" "}
+                  Don&apos;t have an account?{" "}
                   <Link
                     href="/signup"
                     className="text-blue-600 hover:text-blue-700 hover:underline font-semibold transition-colors duration-200"
@@ -380,7 +380,7 @@ export default function LoginPage() {
                   ))}
                 </div>
                 <blockquote className="text-lg text-gray-700 italic">
-                  "{testimonials[currentTestimonial].content}"
+                  &quot;{testimonials[currentTestimonial].content}&quot;
                 </blockquote>
                 <div>
                   <div className="font-semibold text-gray-900">

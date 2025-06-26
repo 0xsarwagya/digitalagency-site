@@ -463,9 +463,9 @@ export default function PortfolioPage() {
               & Success Stories
             </h1>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-              Explore our portfolio of successful projects and see how we've
-              helped businesses across various industries achieve their digital
-              goals.
+              Explore our portfolio of successful projects and see how
+              we&apos;ve helped businesses across various industries achieve
+              their digital goals.
             </p>
           </div>
         </div>
@@ -669,8 +669,8 @@ export default function PortfolioPage() {
               Ready to Create Your Success Story?
             </h2>
             <p className="text-xl opacity-90 max-w-3xl mx-auto">
-              Let's discuss your project and see how we can help you achieve
-              similar results for your business.
+              Let&apos;s discuss your project and see how we can help you
+              achieve similar results for your business.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
@@ -812,7 +812,7 @@ export default function PortfolioPage() {
                   Client Testimonial
                 </h4>
                 <blockquote className="text-gray-700 italic mb-4">
-                  "{selectedProject.testimonial.text}"
+                  &quot;{selectedProject.testimonial.text}&quot;
                 </blockquote>
                 <div className="text-sm">
                   <div className="font-semibold">

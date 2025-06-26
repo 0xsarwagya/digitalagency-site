@@ -261,8 +261,8 @@ export default function DashboardPage() {
           <div>
             <h1 className="text-3xl font-bold text-gray-900 mb-2">Dashboard</h1>
             <p className="text-gray-600">
-              Welcome back, {user.name}! Here's what's happening with your
-              projects.
+              Welcome back, {user.name}! Here&apos;s what&apos;s happening with
+              your projects.
             </p>
           </div>
           <div className="flex gap-3 mt-4 md:mt-0">

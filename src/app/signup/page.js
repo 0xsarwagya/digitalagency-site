@@ -487,7 +487,7 @@ export default function SignupPage() {
                           <>
                             <X className="w-4 h-4 text-red-500" />
                             <span className="text-red-600">
-                              Passwords don't match
+                              Passwords don&apos;t match
                             </span>
                           </>
                         )}

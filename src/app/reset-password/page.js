@@ -180,7 +180,7 @@ export default function ResetPasswordPage() {
                   <CheckCircle className="w-6 h-6 text-green-600" />
                   <div className="text-sm text-gray-700">
                     <p className="font-semibold text-gray-900">
-                      You're all set!
+                      You&apos;re all set!
                     </p>
                     <p className="text-gray-600">
                       You can now sign in with your new password
@@ -453,7 +453,7 @@ export default function ResetPasswordPage() {
                           <>
                             <X className="w-4 h-4 text-red-500" />
                             <span className="text-red-600">
-                              Passwords don't match
+                              Passwords don&apos;t match
                             </span>
                           </>
                         )}

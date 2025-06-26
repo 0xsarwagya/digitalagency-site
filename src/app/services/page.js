@@ -32,7 +32,8 @@ export default function ServicesPage() {
             </h1>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
               From concept to launch, we provide comprehensive digital services
-              that help your business thrive in today's competitive landscape.
+              that help your business thrive in today&apos;s competitive
+              landscape.
             </p>
           </div>
         </div>
@@ -318,7 +319,7 @@ export default function ServicesPage() {
               Ready to Get Started?
             </h2>
             <p className="text-xl opacity-90 max-w-3xl mx-auto">
-              Let's discuss your project requirements and create a custom
+              Let&apos;s discuss your project requirements and create a custom
               solution that drives results for your business.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
