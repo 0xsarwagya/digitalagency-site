@@ -2,7 +2,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Home, Search } from "lucide-react";
 import Link from "next/link";
-import Image from "next/image";
 
 export default function NotFound() {
   return (
@@ -11,13 +10,6 @@ export default function NotFound() {
         <Card className="max-w-2xl mx-auto border-0 bg-white/80 backdrop-blur-sm shadow-2xl">
           <CardContent className="p-12 text-center space-y-8">
             <div className="space-y-4">
-              <Image
-                src="/placeholder.svg?height=200&width=200"
-                alt="404 Error"
-                width={200}
-                height={200}
-                className="mx-auto opacity-50"
-              />
               <h1 className="text-6xl font-bold text-gray-300">404</h1>
               <h2 className="text-3xl font-bold text-gray-900">
                 Page Not Found
